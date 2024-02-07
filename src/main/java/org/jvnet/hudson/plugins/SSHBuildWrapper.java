@@ -288,7 +288,7 @@ public final class SSHBuildWrapper extends BuildWrapper {
 				LOGGER.log(Level.SEVERE, e.getMessage());
 				return FormValidation.error(e.getMessage());
 			}
-			return FormValidation.ok("Successful connection"); 
+			return FormValidation.ok("Successful connection");
 		}
 
 		@Override
